@@ -17,12 +17,11 @@ import com.dds.webrtclib.ws.IConnectEvent;
 public class WebrtcUtil {
 
 
-    public static final String HOST = "47.93.186.97";
+    public static final String HOST = "47.113.199.79";
 
     // turn and stun
     private static MyIceServer[] iceServers = {
             new MyIceServer("stun:stun.l.google.com:19302"),
-
             // 测试地址1
             new MyIceServer("stun:" + HOST + ":3478?transport=udp"),
             new MyIceServer("turn:" + HOST + ":3478?transport=udp",

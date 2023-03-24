@@ -140,6 +140,10 @@ public class ChatSingleActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * 用于切换local和remote的视频源
+     * @param isSwappedFeeds
+     */
     private void setSwappedFeeds(boolean isSwappedFeeds) {
         this.isSwappedFeeds = isSwappedFeeds;
         localRender.setTarget(isSwappedFeeds ? remote_view : local_view);

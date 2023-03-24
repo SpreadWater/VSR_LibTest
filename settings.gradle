@@ -1,1 +1,1 @@
-include ':app', ':rtc-meeting', ':libwebrtc'
+include ':app', ':rtc-meeting', ':libwebrtc', ':mylibrary'

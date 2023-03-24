@@ -18,6 +18,7 @@ public class ProxyVideoSink implements VideoSink {
             Logging.d(TAG, "Dropping frame in proxy because target is null.");
             return;
         }
+        //TODO 拿到VideoFrame 进行后续处理，调用OpenGL进行渲染。
         target.onFrame(frame);
     }
 
